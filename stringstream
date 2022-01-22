@@ -1,0 +1,23 @@
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include<string>
+#include<sstream>
+
+using namespace std;
+
+int main() {
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */  
+    string s,word;
+    int a{0}, b{0}, c{0}, sum{0};
+    getline(cin, s);
+    stringstream ssin(s);
+
+    ssin >> a >> b >>c;
+    sum = a + b + c;
+
+    cout << sum;
+    
+    return 0;
+}
