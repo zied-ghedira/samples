@@ -22,10 +22,10 @@ T max(T a, T b) {
 
 int main(int argc, char **argv)
 {
-	int a{5};
+  int a{5};
   float b{7.0};
     
-  cout << ::max(a,b) << endl;
+  cout << ::max(a,b) << endl; //Possible fix is: ::max<double>(a,b)
   
-	return 0;
+  return 0;
 }
